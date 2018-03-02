@@ -1,0 +1,27 @@
+$sc:50;
+html{
+  width: 100%;
+  height:100%;
+  body{
+    @extend html;
+    background: #f0f0f0;
+    .a{
+      width:314/$sc+rem;
+      height:313/$sc+rem;
+      padding-top:330/$sc+rem;
+      padding-left:206/$sc+rem;
+    }
+    .b{
+      width:218/$sc+rem;
+      height:44/$sc+rem;
+      padding-top:16/$sc+rem;
+      padding-left:258/$sc+rem;
+    }
+    .c{
+      width:356/$sc+rem;
+      height:42/$sc+rem;
+      padding-top:130/$sc+rem;
+      padding-left:188/$sc+rem;
+    }
+  }
+}

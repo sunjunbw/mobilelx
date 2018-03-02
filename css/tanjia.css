@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html, html body, html body main {
+  width: 100%;
+  height: 100%; }
+  html body, html body main body {
+    display: flex;
+    flex-direction: column; }
+    html body header, html body header img {
+      width: 100%;
+      height: 7.145631068rem; }
+    html body main {
+      margin-top: 0.5rem;
+      overflow-y: auto; }
+      html body main .writing {
+        width: 100%;
+        height: 5.4368932039rem; }
+        html body main .writing .W-ti {
+          position: relative;
+          width: 100%;
+          height: 1.1650485437rem;
+          padding-top: 0.48rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 0.8rem; }
+          html body main .writing .W-ti b {
+            position: relative; }
+            html body main .writing .W-ti b:after {
+              content: '';
+              position: absolute;
+              top: 0;
+              left: -0.5048543689rem;
+              border: 0.1941747573rem solid black;
+              border-color: black black  transparent transparent;
+              transform: rotate(-90deg); }
+            html body main .writing .W-ti b:before {
+              content: '';
+              position: absolute;
+              bottom: 0;
+              right: -0.5048543689rem;
+              border: 0.1941747573rem solid black;
+              border-color: transparent transparent black black;
+              transform: rotate(-90deg); }
+        html body main .writing .W-ti-b {
+          width: 100%;
+          height: 4.2718446602rem; }
+          html body main .writing .W-ti-b p {
+            margin-left: 0.3rem;
+            margin-right: 0.3rem;
+            line-height: 1.4rem;
+            font-size: 0.65rem; }
+            html body main .writing .W-ti-b p span {
+              padding: 0.4rem 0.3rem;
+              border-radius: 50%;
+              background: red;
+              font-size: 0.75rem; }
+      html body main ul li {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 7.3786407767rem;
+        border-bottom: 1px solid #eee; }
+        html body main ul li .main-l {
+          width: 6.5242718447rem;
+          height: 6.5242718447rem; }
+          html body main ul li .main-l img {
+            padding: 0.6213592233rem;
+            width: 5.2038834951rem;
+            height: 5.2038834951rem; }
+        html body main ul li .main-r {
+          flex: 1;
+          height: 6.5242718447rem; }
+          html body main ul li .main-r p:nth-child(1) {
+            margin-top: 0.6rem;
+            font-size: 0.8rem; }
+          html body main ul li .main-r p:nth-child(2) {
+            color: #d32c57; }
+            html body main ul li .main-r p:nth-child(2) span {
+              font-size: 0.5rem;
+              color: #999;
+              text-decoration: line-through; }
+          html body main ul li .main-r a {
+            justify-content: flex-start;
+            padding: 0.2rem 0.4rem;
+            margin-bottom: 1rem;
+            font-size: 0.65rem;
+            text-decoration: none;
+            background: #10c3ab;
+            color: #fff;
+            border-radius: 0.5rem; }
+            html body main ul li .main-r a:nth-last-of-type {
+              background: #db2e5b !important; }
+    html body footer {
+      width: 100%;
+      height: 3.8834951456rem;
+      background: paleturquoise; }
+
+/*# sourceMappingURL=tanjia.css.map */
